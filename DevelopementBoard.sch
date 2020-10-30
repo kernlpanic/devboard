@@ -498,4 +498,41 @@ Wire Wire Line
 Connection ~ 6250 3150
 Wire Wire Line
 	6250 3150 6600 3150
+$Comp
+L Connector:Conn_Coaxial_Power J?
+U 1 1 5FAB34F2
+P 1100 1400
+F 0 "J?" H 1188 1396 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 1188 1305 50  0000 L CNN
+F 2 "" H 1100 1350 50  0001 C CNN
+F 3 "~" H 1100 1350 50  0001 C CNN
+	1    1100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FAB4C79
+P 1100 1250
+F 0 "#PWR?" H 1100 1100 50  0001 C CNN
+F 1 "+5V" H 1115 1423 50  0000 C CNN
+F 2 "" H 1100 1250 50  0001 C CNN
+F 3 "" H 1100 1250 50  0001 C CNN
+	1    1100 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1250 1100 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5FAB726E
+P 1100 1750
+F 0 "#PWR?" H 1100 1500 50  0001 C CNN
+F 1 "GND" H 1105 1577 50  0000 C CNN
+F 2 "" H 1100 1750 50  0001 C CNN
+F 3 "" H 1100 1750 50  0001 C CNN
+	1    1100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1600 1100 1750
 $EndSCHEMATC
