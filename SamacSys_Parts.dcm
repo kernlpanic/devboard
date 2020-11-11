@@ -18,4 +18,10 @@ K
 F 
 $ENDCMP
 #
+$CMP SN74HCT08N
+D Quadruple 2-Input Positive-AND Gates
+K
+F http://www.ti.com/lit/gpn/sn74hct08
+$ENDCMP
+#
 #End Doc Library
