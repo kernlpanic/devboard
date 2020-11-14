@@ -24,4 +24,16 @@ K
 F http://www.ti.com/lit/gpn/sn74hct08
 $ENDCMP
 #
+$CMP PJ-037A
+D DC Power Connectors Power Jacks
+K
+F 
+$ENDCMP
+#
+$CMP 2743003112
+D Fair-Rite Ferrite Bead, 3.5 (Dia.) x 6.7mm (Axial), 65 impedance at 25 MHz, 100 impedance at 100 MHz
+K
+F https://componentsearchengine.com/Datasheets/1/2743003112.pdf
+$ENDCMP
+#
 #End Doc Library

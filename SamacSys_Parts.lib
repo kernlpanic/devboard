@@ -144,4 +144,44 @@ P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model PJ-037A
+#/3725392/361560/2.47/2/4/Connector
+DEF PJ-037A J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "PJ-037A" 650 200 50 H V L CNN
+F2 "PJ037A" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "DC Power Connectors Power Jacks" 650 -100 50 H I L CNN "Description"
+F5 "11" 650 -200 50 H I L CNN "Height"
+F6 "490-PJ-037A" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-037A?qs=WyjlAZoYn53bdNRXfildEA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PJ-037A" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2743003112
+#/229637/361560/2.47/2/3/Ferrite Bead
+DEF 2743003112 FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "2743003112" 650 200 50 H V L CNN
+F2 "INDAD2070W65L670D350" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/2743003112.pdf" 650 0 50 H I L CNN
+F4 "Fair-Rite Ferrite Bead, 3.5 (Dia.) x 6.7mm (Axial), 65 impedance at 25 MHz, 100 impedance at 100 MHz" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "623-2743003112" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=623-2743003112" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Fair-Rite" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2743003112" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
