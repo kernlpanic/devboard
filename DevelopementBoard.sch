@@ -987,32 +987,6 @@ Entry Wire Line
 Entry Wire Line
 	2650 7200 2750 7300
 Wire Wire Line
-	3850 6200 4050 6200
-Wire Wire Line
-	3850 6300 4050 6300
-Wire Wire Line
-	3850 6400 4050 6400
-Wire Wire Line
-	3850 6500 4050 6500
-Wire Wire Line
-	3850 6600 4050 6600
-Wire Wire Line
-	3850 6700 4050 6700
-Wire Wire Line
-	3850 6800 4050 6800
-Wire Wire Line
-	3850 6900 4050 6900
-Wire Wire Line
-	3850 7000 4050 7000
-Wire Wire Line
-	3850 7100 4050 7100
-Wire Wire Line
-	3850 7200 4050 7200
-Wire Wire Line
-	3850 7300 4050 7300
-Wire Wire Line
-	3850 7400 4050 7400
-Wire Wire Line
 	2850 6100 2750 6100
 Wire Wire Line
 	2750 6200 2850 6200
@@ -1162,8 +1136,6 @@ F 3 "" H 3850 5700 50  0001 C CNN
 	1    3850 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 5700 3850 6100
 $Comp
 L Device:C C29
 U 1 1 5FFE4584
@@ -1175,7 +1147,6 @@ F 3 "~" H 3700 5700 50  0001 C CNN
 	1    3700 5700
 	0    1    1    0   
 $EndComp
-Connection ~ 3850 5700
 $Comp
 L power:GND #PWR036
 U 1 1 5FFE58FF
@@ -1551,7 +1522,7 @@ U 1 1 60161C52
 P 3250 3200
 F 0 "U3" H 3250 1700 50  0000 C CNN
 F 1 "ATmega32-16PU" H 3250 1600 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 3250 3200 50  0001 C CIN
+F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 3250 3200 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf" H 3250 3200 50  0001 C CNN
 	1    3250 3200
 	1    0    0    -1  
@@ -1670,23 +1641,6 @@ Entry Wire Line
 	4050 3400 4150 3500
 Entry Wire Line
 	4050 3300 4150 3400
-$Comp
-L SamacSys_Parts:SN74HCT08N IC3
-U 1 1 5FAE4344
-P 4550 3450
-F 0 "IC3" V 5096 2722 50  0000 R CNN
-F 1 "SN74HCT08N" V 5005 2722 50  0000 R CNN
-F 2 "SamacSys_Parts:DIP794W53P254L1930H508Q14N" H 5400 3550 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct08" H 5400 3450 50  0001 L CNN
-F 4 "Quadruple 2-Input Positive-AND Gates" H 5400 3350 50  0001 L CNN "Description"
-F 5 "5.08" H 5400 3250 50  0001 L CNN "Height"
-F 6 "595-SN74HCT08N" H 5400 3150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCT08N?qs=dQtLEVC3WoayEL3JeMMC%2FA%3D%3D" H 5400 3050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 5400 2950 50  0001 L CNN "Manufacturer_Name"
-F 9 "SN74HCT08N" H 5400 2850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4550 3450
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:+5V #PWR038
 U 1 1 5FAFA1CC
@@ -1960,17 +1914,17 @@ Text Label 2850 6400 2    50   ~ 0
 A6
 Text Label 2850 6300 2    50   ~ 0
 A7
-Text Label 3850 6400 0    50   ~ 0
+Text Label 3950 6400 0    50   ~ 0
 A8
-Text Label 3850 6500 0    50   ~ 0
+Text Label 3950 6500 0    50   ~ 0
 A9
-Text Label 3850 6800 0    50   ~ 0
+Text Label 3950 6800 0    50   ~ 0
 A10
-Text Label 3850 6600 0    50   ~ 0
+Text Label 3950 6600 0    50   ~ 0
 A11
 Text Label 2850 6200 2    50   ~ 0
 A12
-Text Label 3850 6300 0    50   ~ 0
+Text Label 3950 6300 0    50   ~ 0
 A13
 Text Label 2850 6100 2    50   ~ 0
 A14
@@ -1980,21 +1934,19 @@ Text Label 2850 7200 2    50   ~ 0
 D1
 Text Label 2850 7300 2    50   ~ 0
 D2
-Text Label 3850 7400 0    50   ~ 0
+Text Label 3950 7400 0    50   ~ 0
 D3
-Text Label 3850 7300 0    50   ~ 0
+Text Label 3950 7300 0    50   ~ 0
 D4
-Text Label 3850 7200 0    50   ~ 0
+Text Label 3950 7200 0    50   ~ 0
 D5
-Text Label 3850 7100 0    50   ~ 0
+Text Label 3950 7100 0    50   ~ 0
 D6
-Text Label 3850 7000 0    50   ~ 0
+Text Label 3950 7000 0    50   ~ 0
 D7
-Text Label 3850 6700 0    50   ~ 0
+Text Label 3950 6700 0    50   ~ 0
 OE
-Text Label 3850 6900 0    50   ~ 0
-CE
-Text Label 3850 6200 0    50   ~ 0
+Text Label 3950 6200 0    50   ~ 0
 WE
 Text Label 3850 2400 0    50   ~ 0
 WE
@@ -2163,17 +2115,6 @@ F 3 "~" H 1400 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 71256SA15YG8_:71256SA15YG8 U6
-U 1 1 5FB18159
-P 3350 6750
-F 0 "U6" H 3350 7765 50  0000 C CNN
-F 1 "71256SA15YG8" H 3350 7674 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 3350 6750 50  0001 C CNN
-F 3 "DOCUMENTATION" H 3350 6750 50  0001 C CNN
-	1    3350 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Switching:LM2576T-5 U7
 U 1 1 5FB29AD6
 P 1150 4000
@@ -2184,6 +2125,54 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 1150 4000 50  0001 C CNN
 	1    1150 4000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L SamacSys_Parts:IS62LV256AL-45ULI IC2
+U 1 1 5FB50AA0
+P 2850 6100
+F 0 "IC2" H 3400 6365 50  0000 C CNN
+F 1 "IS62LV256AL-45ULI" H 3400 6274 50  0000 C CNN
+F 2 "SamacSys_Parts:SOIC127P1210X305-28N" H 3800 6200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/IS62LV256AL-45ULI.pdf" H 3800 6100 50  0001 L CNN
+F 4 "SRAM 256K 32Kx8 45ns Async SRAM 3.3v" H 3800 6000 50  0001 L CNN "Description"
+F 5 "3.05" H 3800 5900 50  0001 L CNN "Height"
+F 6 "870-IS62LV256AL45ULI" H 3800 5800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS62LV256AL45ULI" H 3800 5700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Integrated Silicon Solution Inc." H 3800 5600 50  0001 L CNN "Manufacturer_Name"
+F 9 "IS62LV256AL-45ULI" H 3800 5500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6200 4050 6200
+Wire Wire Line
+	3950 6300 4050 6300
+Wire Wire Line
+	3950 6400 4050 6400
+Wire Wire Line
+	3950 6500 4050 6500
+Wire Wire Line
+	3950 6600 4050 6600
+Wire Wire Line
+	3950 6700 4050 6700
+Wire Wire Line
+	3950 6800 4050 6800
+Wire Wire Line
+	3950 6900 4050 6900
+Wire Wire Line
+	3950 7000 4050 7000
+Wire Wire Line
+	3950 7100 4050 7100
+Wire Wire Line
+	3950 7200 4050 7200
+Wire Wire Line
+	3950 7300 4050 7300
+Wire Wire Line
+	3950 7400 4050 7400
+Wire Wire Line
+	3950 6100 3950 5700
+Wire Wire Line
+	3950 5700 3850 5700
+Connection ~ 3850 5700
 Wire Bus Line
 	900  5600 900  7450
 Wire Bus Line
@@ -2194,4 +2183,23 @@ Wire Bus Line
 	2650 5600 2650 7450
 Wire Bus Line
 	4150 950  4150 5600
+$Comp
+L SamacSys_Parts:SN74HCT08N IC3
+U 1 1 5FAE4344
+P 4550 3450
+F 0 "IC3" V 5096 2722 50  0000 R CNN
+F 1 "SN74HCT08N" V 5005 2722 50  0000 R CNN
+F 2 "SamacSys_Parts:DIP794W53P254L1930H508Q14N" H 5400 3550 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct08" H 5400 3450 50  0001 L CNN
+F 4 "Quadruple 2-Input Positive-AND Gates" H 5400 3350 50  0001 L CNN "Description"
+F 5 "5.08" H 5400 3250 50  0001 L CNN "Height"
+F 6 "595-SN74HCT08N" H 5400 3150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCT08N?qs=dQtLEVC3WoayEL3JeMMC%2FA%3D%3D" H 5400 3050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 5400 2950 50  0001 L CNN "Manufacturer_Name"
+F 9 "SN74HCT08N" H 5400 2850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4550 3450
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 6900 0    50   ~ 0
+CE
 $EndSCHEMATC
