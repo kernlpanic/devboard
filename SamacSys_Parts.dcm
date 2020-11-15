@@ -36,4 +36,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/2743003112.pdf
 $ENDCMP
 #
+$CMP IS62LV256AL-45ULI
+D SRAM 256K 32Kx8 45ns Async SRAM 3.3v
+K
+F https://componentsearchengine.com/Datasheets/1/IS62LV256AL-45ULI.pdf
+$ENDCMP
+#
 #End Doc Library
