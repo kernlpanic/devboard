@@ -52,3 +52,6 @@ Thumbs.db
 *-bak
 fp-info-cache
 *.svg
+*.gbr
+*.gbrjob
+*.drl
