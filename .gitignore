@@ -51,6 +51,8 @@ Thumbs.db
 #project specific
 *-bak
 fp-info-cache
+fp-lib-table
+sym-lib-table
 *.svg
 *.gbr
 *.gbrjob
