@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/kernlpanic/Projects/kicad/DevelopementBoard/DevelopementBoard.sch)
+    (source /home/kernlpanic/Projects/kicad/DevelopmentBoard/DevelopmentBoard.sch)
     (date "Mon Nov 16 00:46:59 2020")
     (tool "Eeschema 5.1.7")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source DevelopementBoard.sch)
+        (source DevelopmentBoard.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -956,7 +956,7 @@
     (library (logical Regulator_Switching)
       (uri /home/kernlpanic/kicad-symbols-5.1.7/Regulator_Switching.lib))
     (library (logical SamacSys_Parts)
-      (uri /home/kernlpanic/Projects/kicad/DevelopementBoard/SamacSys_Parts.lib))
+      (uri /home/kernlpanic/Projects/kicad/DevelopmentBoard/SamacSys_Parts.lib))
     (library (logical Switch)
       (uri /home/kernlpanic/kicad-symbols-5.1.7/Switch.lib)))
   (nets
